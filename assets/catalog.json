@@ -1,0 +1,1035 @@
+{
+  "schema_version": 1,
+  "defaults": {
+    "seconds": 40,
+    "segments": 4,
+    "segment_seconds": 10,
+    "aspect_ratio": "16:9",
+    "screen_text_language": "en",
+    "voiceover": false
+  },
+  "bundle": {
+    "base": [
+      "keyboard",
+      "mouse",
+      "stylus",
+      "case",
+      "cable"
+    ],
+    "optional": [
+      "charger"
+    ],
+    "not_required": [
+      "packaging"
+    ],
+    "platform_defaults": {
+      "amazon": {
+        "charger": true
+      },
+      "temu": {
+        "charger": false
+      }
+    }
+  },
+  "models": {
+    "P30": {
+      "identity": "assets/models/P30/identity.md",
+      "images": [
+        {
+          "path": "assets/models/P30/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "P30/画板 1.png",
+          "sha256": "5159f2d1c57a965daddc060bbcb0697daf3c9564ce0280b3cb20feba6e0c7e25"
+        },
+        {
+          "path": "assets/models/P30/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "P30/画板 2.png",
+          "sha256": "12b7cbd019874adc52bd762685c72e0be7c3871fa72af4ca7e858523f956d0b3"
+        },
+        {
+          "path": "assets/models/P30/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "P30/画板 3.png",
+          "sha256": "d59465f7b06d961e9cc53081d92f2ea01fe85a2d3cc7a4f7a5db945845472f5d"
+        },
+        {
+          "path": "assets/models/P30/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "P30/画板 4.png",
+          "sha256": "67389182d4bee10b6dd21c419a9d8a629083754d82ddb1fa0df0af2c9f2067bc"
+        },
+        {
+          "path": "assets/models/P30/low_edge.png",
+          "role": "low_edge",
+          "status": "active",
+          "source": "P30/画板 5.png",
+          "sha256": "dfc4704c83107b09f60871299082f95a4481b086c3bb8922fcf2f3719f552164"
+        },
+        {
+          "path": "assets/models/P30/high_edge.png",
+          "role": "high_edge",
+          "status": "active",
+          "source": "P30/画板 6.png",
+          "sha256": "9e6bf937dd111fc0da02e6178d4a857b2d3cc5ad382dc1f8bb30991775818239"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断"
+      ]
+    },
+    "P60": {
+      "identity": "assets/models/P60/identity.md",
+      "images": [
+        {
+          "path": "assets/models/P60/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "P60/画板 9.png",
+          "sha256": "74ac8f0b8127e7d46ab37c780e26eebbc88e74adbceff24c29813a7e4962799e"
+        },
+        {
+          "path": "assets/models/P60/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "P60/画板 10.png",
+          "sha256": "bad251fe732765d3fd81f1510a137709e393f8e4c72c1862155d45c6598abc79"
+        },
+        {
+          "path": "assets/models/P60/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "P60/画板 11.png",
+          "sha256": "04d643f6cc1f67702b0dd5271c8201bda262fe7114d7ff76373a5755387dc4bc"
+        },
+        {
+          "path": "assets/models/P60/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "P60/画板 12.png",
+          "sha256": "67389182d4bee10b6dd21c419a9d8a629083754d82ddb1fa0df0af2c9f2067bc"
+        },
+        {
+          "path": "assets/models/P60/low_edge.png",
+          "role": "low_edge",
+          "status": "active",
+          "source": "P60/画板 13.png",
+          "sha256": "dfc4704c83107b09f60871299082f95a4481b086c3bb8922fcf2f3719f552164"
+        },
+        {
+          "path": "assets/models/P60/high_edge.png",
+          "role": "high_edge",
+          "status": "active",
+          "source": "P60/画板 14.png",
+          "sha256": "9e6bf937dd111fc0da02e6178d4a857b2d3cc5ad382dc1f8bb30991775818239"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断"
+      ]
+    },
+    "P80": {
+      "identity": "assets/models/P80/identity.md",
+      "images": [
+        {
+          "path": "assets/models/P80/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "P80/画板 15.png",
+          "sha256": "b05f345f1b22f90308923c6e95961b4a599f01865bd85c6dcdb8f1cd9eaf1b8a"
+        },
+        {
+          "path": "assets/models/P80/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "P80/画板 16.png",
+          "sha256": "bc340a87f864ed402e8401e3da97c6d1e498c3f057b1b2bb84c3a31518428bd9"
+        },
+        {
+          "path": "assets/models/P80/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "P80/画板 17.png",
+          "sha256": "2d74d17fad8d473ec355feeb976fcc5f165dcb59d7adf6c7f8144970b7a65251"
+        },
+        {
+          "path": "assets/models/P80/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "P80/画板 18.png",
+          "sha256": "728e40e70f8ef67dcdbbaa35f8f3b27d4bda147851ea0713696f33fea0d8f330"
+        },
+        {
+          "path": "assets/models/P80/low_edge.png",
+          "role": "low_edge",
+          "status": "active",
+          "source": "P80/画板 19.png",
+          "sha256": "ef247658da409967c35f45ab50fa690f9bf006032950836482ca334a656ff851"
+        },
+        {
+          "path": "assets/models/P80/high_edge.png",
+          "role": "high_edge",
+          "status": "active",
+          "source": "P80/画板 20.png",
+          "sha256": "d1a4a806855683271896f76d77f7010d6aef1c1c7c0e61fcf8536657187728a8"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断"
+      ]
+    },
+    "P90": {
+      "identity": "assets/models/P90/identity.md",
+      "images": [
+        {
+          "path": "assets/models/P90/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "P90/画板 21.png",
+          "sha256": "7650ca038c8e7af4c65ff1c96ca67251069fa8d5a6c5b71ce952602b8a53dde1"
+        },
+        {
+          "path": "assets/models/P90/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "P90/画板 22.png",
+          "sha256": "b118bc2a37d19affc897a955a67b08d49bb6af624899be5d393fb6f56b0057a9"
+        },
+        {
+          "path": "assets/models/P90/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "P90/画板 23.png",
+          "sha256": "260ff3372cdd9dbe99600af1e21473e534fa7513b9e17f100ebd247a7f9fbcb4"
+        },
+        {
+          "path": "assets/models/P90/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "P90/画板 24.png",
+          "sha256": "6219a9df94134f771b17b63562cbc580107f1c6a36c8790d8397223cf8ff8b89"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断"
+      ]
+    },
+    "T10": {
+      "identity": "assets/models/T10/identity.md",
+      "images": [
+        {
+          "path": "assets/models/T10/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "T10/画板 27.png",
+          "sha256": "9c2c642345567ccf6f6580b558c9e9b64a3f17eb21f4192a69997f325363ada5"
+        },
+        {
+          "path": "assets/models/T10/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "T10/画板 28.png",
+          "sha256": "ba540d360f321fe142591e097e49d389646059354dfca3fd2076e36e4c278aca"
+        },
+        {
+          "path": "assets/models/T10/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "T10/画板 29.png",
+          "sha256": "37114e3190c75c5bb2499f2c256f7710643177ddff158e8be7063cd86a3412de"
+        },
+        {
+          "path": "assets/models/T10/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "T10/画板 30.png",
+          "sha256": "d68eb5a2708b4fb58a8431a32a2a86ec572d2345f7ffb92eac9a9fa18cebc099"
+        },
+        {
+          "path": "assets/models/T10/low_edge.png",
+          "role": "low_edge",
+          "status": "active",
+          "source": "T10/画板 31.png",
+          "sha256": "d149a27adf5a12b32e1fd787581ef4d1f6b00b12d57790b17831714a58b59211"
+        },
+        {
+          "path": "assets/models/T10/high_edge.png",
+          "role": "high_edge",
+          "status": "active",
+          "source": "T10/画板 32.png",
+          "sha256": "1fee51732e241f47c202b829b17b10149db285267c8ce40802f16f096495c643"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断"
+      ]
+    },
+    "T901": {
+      "identity": "assets/models/T901/identity.md",
+      "images": [
+        {
+          "path": "assets/models/T901/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "T901/画板 33.png",
+          "sha256": "a71a1a97b571a92208be157b7bbc9a65662cf09ed76d9c180067641b7d369501"
+        },
+        {
+          "path": "assets/models/T901/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "T901/画板 34.png",
+          "sha256": "4b4b8a033526965747bfca15e4a5955a3715f9c6a386fa41cd4c96195bd314de"
+        },
+        {
+          "path": "assets/models/T901/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "T901/画板 35.png",
+          "sha256": "a6fde2ae89bcf59c2aa39a1458fa06a7487d57ebf92ef98392cf9831ec7e233c"
+        },
+        {
+          "path": "assets/models/T901/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "T901/画板 36.png",
+          "sha256": "32826bbbac96aea1e8b0354f8eee21381bcd19d3a65bfb00791e5b10bbc51888"
+        },
+        {
+          "path": "assets/models/T901/low_edge.png",
+          "role": "low_edge",
+          "status": "active",
+          "source": "T901/画板 37.png",
+          "sha256": "23d588fa713cab83d41930c9f93a627db3ad1af8458e765a1a93b53df37a295e"
+        },
+        {
+          "path": "assets/models/T901/high_edge.png",
+          "role": "high_edge",
+          "status": "active",
+          "source": "T901/画板 38.png",
+          "sha256": "8aada6cd42700e535c2247012cfb12eab9b48d384c554465cd53f53dbd715221"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断"
+      ]
+    },
+    "TAB9": {
+      "identity": "assets/models/TAB9/identity.md",
+      "images": [
+        {
+          "path": "assets/models/TAB9/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "TAB9/画板 39.png",
+          "sha256": "b15a63ca721da6f8e05ca12a8b462acdf75cd3eafed2988b90c234df21507f25"
+        },
+        {
+          "path": "assets/models/TAB9/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "TAB9/画板 40.png",
+          "sha256": "a9dd8cabf51d4c9957ad3383612f5317cb8673d38c3c950a1fbc5107b2cb4308"
+        },
+        {
+          "path": "assets/models/TAB9/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "TAB9/画板 41.png",
+          "sha256": "7273b2d9f7f2c6674d72b5c14eb0216f69d0769ca34d770eab87a4a41e221401"
+        },
+        {
+          "path": "assets/models/TAB9/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "TAB9/画板 42.png",
+          "sha256": "f1fa494695e0d5ee54e430c567e88591aa33740277a5125af799af9ef1e98807"
+        },
+        {
+          "path": "assets/models/TAB9/low_edge.png",
+          "role": "low_edge",
+          "status": "active",
+          "source": "TAB9/画板 43.png",
+          "sha256": "9d0dc3bd927ac28354aca0a74c9de6d5db7ee0f7fab42d4c9bee9aa1e4bc244b"
+        },
+        {
+          "path": "assets/models/TAB9/high_edge.png",
+          "role": "high_edge",
+          "status": "active",
+          "source": "TAB9/画板 44.png",
+          "sha256": "6178b254057c7037e4ace01fe7f16ea62ae30b4398c758f59c991fbc6442c3c7"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断"
+      ]
+    },
+    "TAB10": {
+      "identity": "assets/models/TAB10/identity.md",
+      "images": [
+        {
+          "path": "assets/models/TAB10/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "TAB10/画板 45.png",
+          "sha256": "f9ae6bc88a0b61a2a6a749fdc39aff5632b9fc8d3be6be9ead9f828eff82114d"
+        },
+        {
+          "path": "assets/models/TAB10/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "TAB10/画板 46.png",
+          "sha256": "a694e04a51e78d2a209042b1a55ebefb31e18cc49d1c51a8368a82b2331eed27"
+        },
+        {
+          "path": "assets/models/TAB10/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "TAB10/画板 47.png",
+          "sha256": "884d1dc1d6d648a099f23e963c8c6b712005a7a8fab6a43e02339f30a395d5ae"
+        },
+        {
+          "path": "assets/models/TAB10/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "TAB10/画板 48.png",
+          "sha256": "69574bdcef92fb25a8affa4fd42a7eb6fcb929a1a9ef0ade7f0087b3f63bf162"
+        },
+        {
+          "path": "assets/models/TAB10/low_edge.png",
+          "role": "low_edge",
+          "status": "active",
+          "source": "TAB10/画板 49.png",
+          "sha256": "cbf78d9bb9f4c4f23b2a4dbbcfb7ffb9171e00d02a481a6049c6077ff8be2706"
+        },
+        {
+          "path": "assets/models/TAB10/high_edge.png",
+          "role": "high_edge",
+          "status": "active",
+          "source": "TAB10/画板 50.png",
+          "sha256": "926067db81b92e7bf988b0b7a751d63d7d0671c4eb4e032bb99be5a5e6c72e2d"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断"
+      ]
+    },
+    "TB02": {
+      "identity": "assets/models/TB02/identity.md",
+      "images": [
+        {
+          "path": "assets/models/TB02/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "TB02/front-clean.png",
+          "sha256": "da2bc83991be9dd2f4169ac83b407ba95321636a9e432f9d76104c0af45cebb8"
+        },
+        {
+          "path": "assets/models/TB02/back.png",
+          "role": "back",
+          "status": "active",
+          "source": "TB02/back-clean.png",
+          "sha256": "b36e6ada7128c867db088f75afd9be6822a003833e20331d044b90699c08e6e1"
+        },
+        {
+          "path": "assets/models/TB02/perspective.png",
+          "role": "perspective",
+          "status": "active",
+          "source": "TB02/perspective-clean.png",
+          "sha256": "74349d7b2c3f156d0e88af22bc099cc5e263233256c6e431d232dfa0c96728b2"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断",
+        "充电接口无清楚依据，连接近景需补图或改镜头"
+      ]
+    }
+  },
+  "accessories": {
+    "keyboard": {
+      "path": "assets/shared-accessories/keyboard.png",
+      "role": "keyboard",
+      "status": "active",
+      "source": "配件/画板 7.png",
+      "sha256": "7b416924d6006b02c869a7fb7d62f3a43a76c7a7e82489ce524a8b66920df9aa",
+      "description": "紧凑黑色分离式键盘；使用原图键区与右上控制区，不增厚、不造接口。"
+    },
+    "case": {
+      "path": "assets/shared-accessories/case.jpg",
+      "role": "case",
+      "status": "active",
+      "source": "配件/protective-case.jpg",
+      "sha256": "8cc4cfdae357e48700627782beec467208f6f19f2aad65e0a502a7a481504b3e",
+      "description": "黑色纹理平铺保护壳，两条横折线、三块宽面板；无装机内侧或折叠支架依据。"
+    },
+    "mouse": {
+      "path": "assets/shared-accessories/mouse.jpg",
+      "role": "mouse",
+      "status": "active",
+      "source": "配件/mouse.jpg",
+      "sha256": "3dead1470690b924437e55a522e822352d0a19805180c1566b17224191a1fff6",
+      "description": "黑色椭圆鼠标，中央滚轮及小按钮，按原轮廓。"
+    },
+    "stylus": {
+      "path": "assets/shared-accessories/stylus.png",
+      "role": "stylus",
+      "status": "active",
+      "source": "配件/画板 8.png",
+      "sha256": "c7f6d802696582016c3324f212e56157c4499ebca20653c44d53ddd2b119c5e7",
+      "description": "银色笔杆、黑色末端/笔尖、笔夹；不推断主动笔、压感等功能。"
+    },
+    "cable": {
+      "path": "assets/shared-accessories/cable.png",
+      "role": "cable",
+      "status": "active",
+      "source": "配件/数据线.png",
+      "sha256": "e09ed22a6d5b295fc098727c623c23e18bb4f9007dc660926562a59aee506df3",
+      "description": "黑色线缆，原图端头与盘绕形态；端头微距按可辨细节设计。"
+    },
+    "charger": {
+      "path": "assets/shared-accessories/charger.jpg",
+      "role": "charger",
+      "status": "active",
+      "source": "配件/充电头.jpg",
+      "sha256": "ef271aac2b3f3c35d6ed9fcbcd7edfab8d4e97f66b4744ee13cbe0007e767831",
+      "description": "黑色充电头，两片扁平插脚；接口面不可见，不推断功率、接口或快充。"
+    },
+    "packaging": {
+      "path": "assets/shared-accessories/packaging.jpg",
+      "role": "packaging",
+      "status": "active",
+      "source": "配件/包装盒.jpg",
+      "sha256": "587033245d4af627db2707dfd78d3e66029af4146e6690a0ca1c689161a32bed",
+      "description": "通用包装，仅按需使用，盒上画面不是当前型号机身依据。"
+    }
+  },
+  "layout_references": [
+    {
+      "path": "assets/layout-reference/hero-clean.png",
+      "role": "layout_only",
+      "status": "layout_only",
+      "source": "TAB9/hero-clean.png",
+      "sha256": "42dffe8d441930fb4af0da03d88f0a6955463b2ae004f97478163092f1a1c285"
+    },
+    {
+      "path": "assets/layout-reference/flat-lay-clean.png",
+      "role": "layout_only",
+      "status": "layout_only",
+      "source": "TAB9/flat-lay-clean.png",
+      "sha256": "aad09fb2facda6ef7690479aa687ddbcbc80c406b2a59c683af6b46a90476e26"
+    }
+  ],
+  "pending_review": [
+    {
+      "path": "assets/pending-review/P90_25.png",
+      "role": "unconfirmed_angle",
+      "status": "excluded",
+      "source": "P90/画板 25.png",
+      "sha256": "dfc4704c83107b09f60871299082f95a4481b086c3bb8922fcf2f3719f552164"
+    },
+    {
+      "path": "assets/pending-review/P90_26.png",
+      "role": "unconfirmed_angle",
+      "status": "excluded",
+      "source": "P90/画板 26.png",
+      "sha256": "c20812973fb5fa49ab3f67d2fdc31dfb5b3d212711acfa3a1d744e61d4e959ee"
+    }
+  ],
+  "source_dispositions": [
+    {
+      "source": "P30/flat-lay-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "P30/hero-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "P30/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "P30/画板 1.png",
+      "action": "copied",
+      "target": "assets/models/P30/back.png"
+    },
+    {
+      "source": "P30/画板 2.png",
+      "action": "copied",
+      "target": "assets/models/P30/front.png"
+    },
+    {
+      "source": "P30/画板 3.png",
+      "action": "copied",
+      "target": "assets/models/P30/perspective_interfaces.png"
+    },
+    {
+      "source": "P30/画板 4.png",
+      "action": "copied",
+      "target": "assets/models/P30/perspective_other.png"
+    },
+    {
+      "source": "P30/画板 5.png",
+      "action": "copied",
+      "target": "assets/models/P30/low_edge.png"
+    },
+    {
+      "source": "P30/画板 6.png",
+      "action": "copied",
+      "target": "assets/models/P30/high_edge.png"
+    },
+    {
+      "source": "P30/画板 7.png",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/keyboard.png",
+      "identical_to_shared": true
+    },
+    {
+      "source": "P60/flat-lay-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "P60/hero-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "P60/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "P60/画板 10.png",
+      "action": "copied",
+      "target": "assets/models/P60/front.png"
+    },
+    {
+      "source": "P60/画板 11.png",
+      "action": "copied",
+      "target": "assets/models/P60/perspective_interfaces.png"
+    },
+    {
+      "source": "P60/画板 12.png",
+      "action": "copied",
+      "target": "assets/models/P60/perspective_other.png"
+    },
+    {
+      "source": "P60/画板 13.png",
+      "action": "copied",
+      "target": "assets/models/P60/low_edge.png"
+    },
+    {
+      "source": "P60/画板 14.png",
+      "action": "copied",
+      "target": "assets/models/P60/high_edge.png"
+    },
+    {
+      "source": "P60/画板 7.png",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/keyboard.png",
+      "identical_to_shared": true
+    },
+    {
+      "source": "P60/画板 9.png",
+      "action": "copied",
+      "target": "assets/models/P60/back.png"
+    },
+    {
+      "source": "P80/flat-lay-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "P80/hero-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "P80/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "P80/画板 15.png",
+      "action": "copied",
+      "target": "assets/models/P80/back.png"
+    },
+    {
+      "source": "P80/画板 16.png",
+      "action": "copied",
+      "target": "assets/models/P80/front.png"
+    },
+    {
+      "source": "P80/画板 17.png",
+      "action": "copied",
+      "target": "assets/models/P80/perspective_interfaces.png"
+    },
+    {
+      "source": "P80/画板 18.png",
+      "action": "copied",
+      "target": "assets/models/P80/perspective_other.png"
+    },
+    {
+      "source": "P80/画板 19.png",
+      "action": "copied",
+      "target": "assets/models/P80/low_edge.png"
+    },
+    {
+      "source": "P80/画板 20.png",
+      "action": "copied",
+      "target": "assets/models/P80/high_edge.png"
+    },
+    {
+      "source": "P80/画板 7.png",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/keyboard.png",
+      "identical_to_shared": true
+    },
+    {
+      "source": "P90/flat-lay-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "P90/hero-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "P90/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "P90/画板 21.png",
+      "action": "copied",
+      "target": "assets/models/P90/back.png"
+    },
+    {
+      "source": "P90/画板 22.png",
+      "action": "copied",
+      "target": "assets/models/P90/front.png"
+    },
+    {
+      "source": "P90/画板 23.png",
+      "action": "copied",
+      "target": "assets/models/P90/perspective_interfaces.png"
+    },
+    {
+      "source": "P90/画板 24.png",
+      "action": "copied",
+      "target": "assets/models/P90/perspective_other.png"
+    },
+    {
+      "source": "P90/画板 25.png",
+      "action": "copied",
+      "target": "assets/pending-review/P90_25.png"
+    },
+    {
+      "source": "P90/画板 26.png",
+      "action": "copied",
+      "target": "assets/pending-review/P90_26.png"
+    },
+    {
+      "source": "T10/flat-lay-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "T10/hero-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "T10/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "T10/画板 27.png",
+      "action": "copied",
+      "target": "assets/models/T10/back.png"
+    },
+    {
+      "source": "T10/画板 28.png",
+      "action": "copied",
+      "target": "assets/models/T10/front.png"
+    },
+    {
+      "source": "T10/画板 29.png",
+      "action": "copied",
+      "target": "assets/models/T10/perspective_interfaces.png"
+    },
+    {
+      "source": "T10/画板 30.png",
+      "action": "copied",
+      "target": "assets/models/T10/perspective_other.png"
+    },
+    {
+      "source": "T10/画板 31.png",
+      "action": "copied",
+      "target": "assets/models/T10/low_edge.png"
+    },
+    {
+      "source": "T10/画板 32.png",
+      "action": "copied",
+      "target": "assets/models/T10/high_edge.png"
+    },
+    {
+      "source": "T10/画板 7.png",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/keyboard.png",
+      "identical_to_shared": true
+    },
+    {
+      "source": "T901/flat-lay-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "T901/hero-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "T901/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "T901/画板 33.png",
+      "action": "copied",
+      "target": "assets/models/T901/back.png"
+    },
+    {
+      "source": "T901/画板 34.png",
+      "action": "copied",
+      "target": "assets/models/T901/front.png"
+    },
+    {
+      "source": "T901/画板 35.png",
+      "action": "copied",
+      "target": "assets/models/T901/perspective_interfaces.png"
+    },
+    {
+      "source": "T901/画板 36.png",
+      "action": "copied",
+      "target": "assets/models/T901/perspective_other.png"
+    },
+    {
+      "source": "T901/画板 37.png",
+      "action": "copied",
+      "target": "assets/models/T901/low_edge.png"
+    },
+    {
+      "source": "T901/画板 38.png",
+      "action": "copied",
+      "target": "assets/models/T901/high_edge.png"
+    },
+    {
+      "source": "T901/画板 7.png",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/keyboard.png",
+      "identical_to_shared": true
+    },
+    {
+      "source": "TAB10/flat-lay-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "TAB10/hero-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "TAB10/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "TAB10/画板 45.png",
+      "action": "copied",
+      "target": "assets/models/TAB10/back.png"
+    },
+    {
+      "source": "TAB10/画板 46.png",
+      "action": "copied",
+      "target": "assets/models/TAB10/front.png"
+    },
+    {
+      "source": "TAB10/画板 47.png",
+      "action": "copied",
+      "target": "assets/models/TAB10/perspective_interfaces.png"
+    },
+    {
+      "source": "TAB10/画板 48.png",
+      "action": "copied",
+      "target": "assets/models/TAB10/perspective_other.png"
+    },
+    {
+      "source": "TAB10/画板 49.png",
+      "action": "copied",
+      "target": "assets/models/TAB10/low_edge.png"
+    },
+    {
+      "source": "TAB10/画板 50.png",
+      "action": "copied",
+      "target": "assets/models/TAB10/high_edge.png"
+    },
+    {
+      "source": "TAB10/画板 7.png",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/keyboard.png",
+      "identical_to_shared": true
+    },
+    {
+      "source": "TAB9/flat-lay-clean.png",
+      "action": "copied",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "TAB9/hero-clean.png",
+      "action": "copied",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "TAB9/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "TAB9/画板 39.png",
+      "action": "copied",
+      "target": "assets/models/TAB9/back.png"
+    },
+    {
+      "source": "TAB9/画板 40.png",
+      "action": "copied",
+      "target": "assets/models/TAB9/front.png"
+    },
+    {
+      "source": "TAB9/画板 41.png",
+      "action": "copied",
+      "target": "assets/models/TAB9/perspective_interfaces.png"
+    },
+    {
+      "source": "TAB9/画板 42.png",
+      "action": "copied",
+      "target": "assets/models/TAB9/perspective_other.png"
+    },
+    {
+      "source": "TAB9/画板 43.png",
+      "action": "copied",
+      "target": "assets/models/TAB9/low_edge.png"
+    },
+    {
+      "source": "TAB9/画板 44.png",
+      "action": "copied",
+      "target": "assets/models/TAB9/high_edge.png"
+    },
+    {
+      "source": "TAB9/画板 7.png",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/keyboard.png",
+      "identical_to_shared": true
+    },
+    {
+      "source": "TB02/back-clean.png",
+      "action": "copied",
+      "target": "assets/models/TB02/back.png"
+    },
+    {
+      "source": "TB02/flat-lay-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/flat-lay-clean.png"
+    },
+    {
+      "source": "TB02/front-clean.png",
+      "action": "copied",
+      "target": "assets/models/TB02/front.png"
+    },
+    {
+      "source": "TB02/hero-clean.png",
+      "action": "deduplicated_layout",
+      "target": "assets/layout-reference/hero-clean.png"
+    },
+    {
+      "source": "TB02/keyboard.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/keyboard.png",
+      "identical_to_shared": false
+    },
+    {
+      "source": "TB02/perspective-clean.png",
+      "action": "copied",
+      "target": "assets/models/TB02/perspective.png"
+    },
+    {
+      "source": "TB02/protective-case.jpg",
+      "action": "common_accessory_override",
+      "target": "assets/shared-accessories/case.jpg",
+      "identical_to_shared": true
+    },
+    {
+      "source": "配件/mouse.jpg",
+      "action": "copied",
+      "target": "assets/shared-accessories/mouse.jpg"
+    },
+    {
+      "source": "配件/protective-case.jpg",
+      "action": "copied",
+      "target": "assets/shared-accessories/case.jpg"
+    },
+    {
+      "source": "配件/充电头.jpg",
+      "action": "copied",
+      "target": "assets/shared-accessories/charger.jpg"
+    },
+    {
+      "source": "配件/包装盒.jpg",
+      "action": "copied",
+      "target": "assets/shared-accessories/packaging.jpg"
+    },
+    {
+      "source": "配件/数据线.png",
+      "action": "copied",
+      "target": "assets/shared-accessories/cable.png"
+    },
+    {
+      "source": "配件/画板 7.png",
+      "action": "copied",
+      "target": "assets/shared-accessories/keyboard.png"
+    },
+    {
+      "source": "配件/画板 8.png",
+      "action": "copied",
+      "target": "assets/shared-accessories/stylus.png"
+    }
+  ]
+}

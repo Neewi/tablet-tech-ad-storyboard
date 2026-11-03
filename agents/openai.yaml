@@ -1,0 +1,4 @@
+interface:
+  display_name: "平板套装科技广告"
+  short_description: "按型号制作强运动、实体概念联动的四段广告宫格与视频提示词"
+  default_prompt: "使用 $tablet-tech-ad-storyboard 制作指定型号的四段科技广告参考图与提示词，先确认参数是否上屏和是否包含充电头。"

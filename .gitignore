@@ -1,0 +1,33 @@
+# Generated deliverables and per-run working data
+/outputs/
+/output/
+/runs/
+/work/
+/tmp/
+/temp/
+**/工作记录/
+**/生成结果/
+**/广告制作/
+
+# Common media output names copied into the repository root
+/G[1-4].png
+/G[1-4]_提示词.txt
+/对应表.md
+gemini_generated_video*
+*.mp4
+*.mov
+*.webm
+*.zip
+
+# Local settings, caches and credentials
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.log
