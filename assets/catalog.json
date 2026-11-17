@@ -456,6 +456,117 @@
         "未独立证明的接口类型不推断",
         "充电接口无清楚依据，连接近景需补图或改镜头"
       ]
+    },
+    "S80": {
+      "identity": "assets/models/S80/identity.md",
+      "images": [
+        {
+          "path": "assets/models/S80/S80.png",
+          "role": "back",
+          "status": "active",
+          "source": "S80/S80.png",
+          "sha256": "0a93ca502172634d503294d96e2eb97a9aad0b1f9e2d9b91bb2bf322ec9e953b"
+        },
+        {
+          "path": "assets/models/S80/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "S80/front.png",
+          "sha256": "a9dd8cabf51d4c9957ad3383612f5317cb8673d38c3c950a1fbc5107b2cb4308"
+        },
+        {
+          "path": "assets/models/S80/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "S80/perspective_interfaces.png",
+          "sha256": "7273b2d9f7f2c6674d72b5c14eb0216f69d0769ca34d770eab87a4a41e221401"
+        },
+        {
+          "path": "assets/models/S80/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "S80/perspective_other.png",
+          "sha256": "f1fa494695e0d5ee54e430c567e88591aa33740277a5125af799af9ef1e98807"
+        },
+        {
+          "path": "assets/models/S80/low_edge.png",
+          "role": "low_edge",
+          "status": "active",
+          "source": "S80/low_edge.png",
+          "sha256": "9d0dc3bd927ac28354aca0a74c9de6d5db7ee0f7fab42d4c9bee9aa1e4bc244b"
+        },
+        {
+          "path": "assets/models/S80/high_edge.png",
+          "role": "high_edge",
+          "status": "active",
+          "source": "S80/high_edge.png",
+          "sha256": "6178b254057c7037e4ace01fe7f16ea62ae30b4398c758f59c991fbc6442c3c7"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断",
+        "后摄模组按本型号原图保持，装饰圆环不作为真实摄像头数量或规格依据"
+      ]
+    },
+    "S90": {
+      "identity": "assets/models/S90/identity.md",
+      "images": [
+        {
+          "path": "assets/models/S90/画板 2.png",
+          "role": "back",
+          "status": "active",
+          "source": "S90/画板 2.png",
+          "sha256": "ef22d0a322eefb30e407dfcb3ef2807659063c1ea6b5a00c8704158104b846a4"
+        },
+        {
+          "path": "assets/models/S90/front.png",
+          "role": "front",
+          "status": "active",
+          "source": "S90/front.png",
+          "sha256": "b118bc2a37d19affc897a955a67b08d49bb6af624899be5d393fb6f56b0057a9"
+        },
+        {
+          "path": "assets/models/S90/perspective_interfaces.png",
+          "role": "perspective_interfaces",
+          "status": "active",
+          "source": "S90/perspective_interfaces.png",
+          "sha256": "260ff3372cdd9dbe99600af1e21473e534fa7513b9e17f100ebd247a7f9fbcb4"
+        },
+        {
+          "path": "assets/models/S90/perspective_other.png",
+          "role": "perspective_other",
+          "status": "active",
+          "source": "S90/perspective_other.png",
+          "sha256": "6219a9df94134f771b17b63562cbc580107f1c6a36c8790d8397223cf8ff8b89"
+        },
+        {
+          "path": "assets/models/S90/画板 3.png",
+          "role": "front_low_angle",
+          "status": "active",
+          "source": "S90/画板 3.png",
+          "sha256": "2e37253d55a0d3d8d68bd2174dff2b2e9551cbdf2759ac2cf2a03456c9e64ff9"
+        },
+        {
+          "path": "assets/models/S90/画板 4.png",
+          "role": "back_perspective_interfaces",
+          "status": "active",
+          "source": "S90/画板 4.png",
+          "sha256": "534a28f8ec64d6213eb375703b92c06ef9d5e9d3d40c6d2f1abb14e233cd5f51"
+        },
+        {
+          "path": "assets/models/S90/画板 5.png",
+          "role": "front_portrait_perspective",
+          "status": "active",
+          "source": "S90/画板 5.png",
+          "sha256": "9bde2681a078b8b76ad2d29884f3271cd71529d8d2d1a00996ef0c070ff4a4ed"
+        }
+      ],
+      "limitations": [
+        "没有完整360度或真实内部拆解依据",
+        "未独立证明的接口类型不推断",
+        "后摄模组按本型号原图保持，装饰圆环不作为真实摄像头数量或规格依据"
+      ]
     }
   },
   "accessories": {
@@ -1030,6 +1141,71 @@
       "source": "配件/画板 8.png",
       "action": "copied",
       "target": "assets/shared-accessories/stylus.png"
+    },
+    {
+      "source": "S80/S80.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S80/S80.png"
+    },
+    {
+      "source": "S80/front.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S80/front.png"
+    },
+    {
+      "source": "S80/perspective_interfaces.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S80/perspective_interfaces.png"
+    },
+    {
+      "source": "S80/perspective_other.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S80/perspective_other.png"
+    },
+    {
+      "source": "S80/low_edge.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S80/low_edge.png"
+    },
+    {
+      "source": "S80/high_edge.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S80/high_edge.png"
+    },
+    {
+      "source": "S90/画板 2.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S90/画板 2.png"
+    },
+    {
+      "source": "S90/front.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S90/front.png"
+    },
+    {
+      "source": "S90/perspective_interfaces.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S90/perspective_interfaces.png"
+    },
+    {
+      "source": "S90/perspective_other.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S90/perspective_other.png"
+    },
+    {
+      "source": "S90/画板 3.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S90/画板 3.png"
+    },
+    {
+      "source": "S90/画板 4.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S90/画板 4.png"
+    },
+    {
+      "source": "S90/画板 5.png",
+      "action": "registered_in_place",
+      "target": "assets/models/S90/画板 5.png"
     }
   ]
 }
